@@ -1,9 +1,9 @@
 const axios = require("axios");
-const getToken = require("./authService");
+const getAuthToken = require("./authService");
 
 const getDepots = async () => {
   try {
-    const token = await getToken();
+    const token = await getAuthToken();
 
     const response = await axios.get(
       "http://4.224.186.213/evaluation-service/depots",

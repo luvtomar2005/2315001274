@@ -1,5 +1,5 @@
 const axios = require("axios");
-const getToken = require("./authService");
+const getAuthToken = require("./authService");
 
 const getVehicles = async () => {
   try {
