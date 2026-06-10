@@ -24,4 +24,4 @@ const access_token = async() =>{
 }
 
 
-module.exports = getAuthToken;
+module.exports = access_token;
